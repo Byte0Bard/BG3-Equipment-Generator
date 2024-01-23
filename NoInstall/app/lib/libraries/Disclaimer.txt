@@ -1,0 +1,22 @@
+Disclaimer:
+
+The library files in this folder were originally created by Norbyte and obtained from https://github.com/Norbyte/lslib/. These files are provided under the terms of the MIT License (see LICENSE.txt).
+
+Additionally, the file GR2toDAE.exe has been added to this folder by Jovito. GR2toDAE.exe is a C# program that interfaces with Norbyte's code to read and extract information from .GR2 files.
+
+- Original Library Files (lslib):
+  - Author: Norbyte
+  - Source: https://github.com/Norbyte/lslib/
+  - License: MIT License
+
+- Additional Program (GR2toDAE.exe):
+  - Author: Jovito
+  - Purpose: Read and extract information from .GR2 files using Norbyte's lslib.
+  - Language: C#
+  - Disclaimer: GR2toDAE.exe is an independent program and is not part of the lslib library. It is provided separately and is not covered by the MIT License.
+
+It is important to read and understand the terms of the MIT License for lslib before using or distributing these files. The MIT License is included in the LICENSE.txt file in this folder.
+
+Please note that GR2toDAE.exe is a separate tool, and its use and distribution are subject to its own terms.
+
+End of Disclaimer.

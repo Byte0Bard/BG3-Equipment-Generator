@@ -1,5 +1,5 @@
 @echo off
-
+REM \
 setlocal enableDelayedExpansion
 set /a ID=1
 set folderPath=""
@@ -11,7 +11,7 @@ set /a "currentFile=0"
 set /p "folderPath=Choose a folder: " 
 echo "Choice made: !folderPath!"
 folderPath = !folderPath!
-for %%W in ("!folderPath!"\*_BM.png "!folderPath!"\*_NM.png "!folderPath!"\*_BM.jpg "!folderPath!"\*_NM.jpg "!folderPath!"\*_BM.tga "!folderPath!"\*_NM.tga "!folderPath!"\*_BM.bmp "!folderPath!"\*_NM.bmp "!folderPath!"\*_BM.tiff "!folderPath!"\*_NM.tiff "!folderPath!"\*_BCM.png "!folderPath!"\*_BCM.jpg "!folderPath!"\*_BCM.tga "!folderPath!"\*_BCM.bmp "!folderPath!"\*_BCM.tiff "!folderPath!"\icons.png "!folderPath!"\*_ICON.png "!folderPath!"\*_ICON.jpg "!folderPath!"\*_ICON.tga "!folderPath!"\*_ICON.bmp "!folderPath!"\*_ICON.tiff) do (
+for %%W in ("!folderPath!"\*_BM.png "!folderPath!"\*_NM.png "!folderPath!"\*_BM.jpg "!folderPath!"\*_NM.jpg "!folderPath!"\*_BM.tga "!folderPath!"\*_NM.tga "!folderPath!"\*_BM.bmp "!folderPath!"\*_NM.bmp "!folderPath!"\*_BM.tiff "!folderPath!"\*_NM.tiff "!folderPath!"\*_BCM.png "!folderPath!"\*_BCM.jpg "!folderPath!"\*_BCM.tga "!folderPath!"\*_BCM.bmp "!folderPath!"\*_BCM.tiff "!folderPath!"\*icons.png "!folderPath!"\*_ICON.png "!folderPath!"\*_ICON.jpg "!folderPath!"\*_ICON.tga "!folderPath!"\*_ICON.bmp "!folderPath!"\*_ICON.tiff) do (
     echo "Adding file to dxt5 list: %%~W"
 	set dxt5List=!dxt5List! "%%W"
 	set /a "totalFiles+=1"

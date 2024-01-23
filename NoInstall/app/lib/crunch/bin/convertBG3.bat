@@ -1,5 +1,5 @@
 @echo off
-
+REM This .bat file was made by Jovito and is not part of crunch/crnlib.
 setlocal enableDelayedExpansion
 set /a ID=1
 set folderPath=""

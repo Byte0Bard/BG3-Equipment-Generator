@@ -1,0 +1,231 @@
+errorMessageIconMissing,Missing icon image. Image is no longer at original location.
+errorMessageStatsMissing,Item does not have stats. Please open and resave item.
+errorMessageMeshMissing,Missing mesh/meshes.
+errorMessageMaterialMissing,Missing material/materials.
+errorMessageMeshUUIDMissing,Mesh is missing UUID. Please delete or resumbit mesh.
+errorMessageMeshFileNotFound,Cannot find mesh at specified address.
+errorMessageMeshEmpty,Mesh GR2 empty. Does not contain objects.
+errorMessageIncorrectSubmeshOrder,Submesh order is incorrect.
+errorMessageIncorrectSubmeshID,Submesh order or ID has changed.
+errorMessageMaterialUUIDMissing,Material is missing UUID. Please delete or resubmit material.
+errorMessageTextureMissing,Texture is missing from material.
+errorMessageNeedFullProjectPath,The project folder field must have a full path. Example: C:\Mod Files
+errorWord,Error
+errorMessageIncompleteForm,Must enter all information before continuing.
+errorMessageResubmitData, must be edited and submitted again.
+errorMessageItemTableErrors,There are errors in the item table.
+informationMessageNewProfileName,Enter in a new name for this profile.
+errorMessageNewProfileName,New name must be different from old name.
+confirmMessageDeleteProfile,Are you sure you wish to delete profile 
+confirmMessageSaveProfile,Do you wish to save the current information?
+errorMessageUnableToCopy,Unable to create copy.
+informationMessageProfileLocation,Select a location to store your mod profiles.
+errorMessageCreateSaveFile,Error creating profile save file.
+errorMessageCreateFolders,Unable to create folders.
+informationMessageCreateProjectFolders,Creating Project Folders
+informationMessageFinishedProjectFolders,Finished project folder setup.
+informationMessageCreatingFolder,Creating folder 
+folderWord,Folder
+createdSuccessfullyWords, created successfully.
+errorMessageFolderCreationFail,Failed to create the folders: 
+alreadyExistsWords, already exists.
+movingMaterialsForWords,Moving materials for 
+movingTextureWords,Moving texture 
+didNotMoveTextureWords,Did not move texture 
+ignoringMaterialTextureWords,. Ignoring material textures.
+incorrectTextureTypeWords,. Incorrect texture type.
+couldNotFindTextureWords,Could not find texture 
+atOriginalAddressWords, at original address 
+movingMeshesForWords,Moving meshes for 
+movingMeshWords,Moving mesh 
+forItemWords, for item 
+movingIconsForWords,Moving icons for 
+readingIconImageWords,Reading icon image 
+iconForWords,Icon for 
+loadedWord, loaded.
+copyingIconWords,Copying icon 
+fromWord, from 
+toWord, to 
+resizingIconWords,Resizing icon 
+creatingIconWords,Creating icon
+atWord, at 
+unableToLoadAndConvertWords, was unable to be loaded and converted.
+informationMessageCombinedIcons,Combined icons.
+informationMessageFinishedMovingFiles,Finished moving files.
+errorMessageDDSLoading,Error loading DDS image. Is there a problem with the image format?
+couldNotConvertWords,Could not convert 
+toDDSWords, to dds.
+informationMessageCompletedDDSConversion,Completed DDS conversion.
+informationMessageManualConversion,Files have been moved. Manually convert these textures to .dds.
+errorMessageEmptyMeshName,Must enter a mesh name.
+errorMessageInvalidMesh,Invalid GR2 mesh.
+errorMessageBlankMeshAddress,Mesh address and name must not be blank.
+errorMessageEmptySubmeshTable,Submesh table is empty.
+errorMessageMeshBoundsFormat,"All numbers in the mesh bounds must be in the form #.##. Example: 1.24, 0.3, 0.04"
+errorMessageInvalidLODNumber,Must enter valid number for LOD.
+errorMessageEmptySubmeshID,Must have an ID for all submeshes.
+errorMessageNoBodySelection,Must select a body type.
+replaceProfileWords,The following profile will be replaced: 
+continueWords,. Do you wish to continue?
+replaceProfileTitleWords,Replace Profile
+loadedBeginWord,Loaded 
+profilesEndWord, profiles.
+errorMessageNoTintSelection,Must select the tintable check box or non-tintable check box for materials.
+errorMessageEmptyRowSelection,Please select a row.
+errorMessageNoMaterialCreated,Please add at least one material.
+errorMessageInvalidUUID,Invalid UUID.
+errorMessageFileNotFound,File/s not found.
+errorMessageMaterialTableErrors,Cannot edit mesh. Errors present in material table.
+informationMessageLoadingMeshes,Loading Meshes
+informationMessageLoadingTextures,Loading Textures
+errorMessageValidNumberStats,"Armor class, ability modifier cap, and minimum level must be integers."
+errorMessageDamageFormat,Damage must be in format 'numberdnumber' like 1d3 or 2d5.
+levelBeginWord,Level
+rangeWords,", damage range, and weapon range"
+mustBeIntegersEndWords, must be integers.
+errorMessageInvalidProjectileUUID,Projectile must be a valid UUID.
+errorMessageCustomWeaponTemplate,Custom weapons must have a visual template chosen.
+chooseAColorTitle,Choose a Color
+errorMessageIncorrectImageFormat,"Please enter all data correctly before continuing. Texture files must be .png, .tiff, .tga, .jpg, .bmp or .dds."
+toolTipItemPassives,Enter in passives. Example: ARM_SuperiorPadding_1_Passive
+toolTipItemBoosts,"Enter in boosts. Example: Disadvantage(Skill,Stealth) or AC(1)"
+toolTipIgnoreMaterialTextures,Only regenerate text files and icons. Textures for materials will be ignored.
+toolTipVisualTemplate,"MUST BE SELECTED FOR WEAPONS. The mesh to be used as the visual template for the item. This is what the item will look like in game. If none is selected, the item will use all the meshes as one."
+errorMessageManualSaveFile,Unable to set save location. Please choose a folder manually.
+informationMessageDDSConversion,Converting Material Textures to DDS
+informationMessageIconConversion,Converting Icons
+informationMessageCombinedIconsConversion,Converting Combined Icon Image
+informationMessageFinishXMLGen,Finished generating XMLs.
+informationMessageFilesGenerated,Files generated.
+informationMessageLocaCreation,Creating Loca File
+informationColorPresetsCreation,Creating Color Presets File
+informationTexturesFileCreation,Creating Textures File
+informationMaterialsFileCreation,Creating Materials File
+informationMeshesFileCreation,Creating Meshes File
+informationRootTemplatesCreation,Creating Root Templates File
+informationUIIconsCreation,Creating UI Icons File
+informationTreasureTableCreation,Creating Treasure Table
+informationMessageLoadingItem,Loading Item
+projectFolderLabel,Project Folder
+projectNameLabel,Project Name (No Spaces)
+modNameLabel,Mod Name
+authorLabel,Author
+projectDescriptionLabel,Project Description
+projectVersionNumberLabel,Project Version Number
+retrievePresetsLabel,Retrieve Presets
+copyPresetLabel,Copy Preset
+deletePresetLabel,Delete Preset
+continueLabel,Continue
+convertOldProfilesLabel,Convert Old Profiles
+toolTipConverOldProfiles,For converting old .ser profiles to .json profiles.
+themeLabel,Theme
+addNewItemLabel,Add New Item
+copyItemLabel,Copy Item
+removeItemLabel,Remove Item
+saveLabel,Save
+generateEquipmentFilesLabel,Generate Equipment Files
+ignoreMaterialTexturesLabel,Ignore Material Textures
+backLabel,Back
+lightThemeLabel,Light
+darkThemeLabel,Dark
+meshLabel,Mesh
+meshDescriptionLabel,The 3D model.
+meshNameLabel,Mesh Name
+uploadLabel,Upload
+submitMeshLabel,Submit Mesh
+meshUploadLabel,Mesh Upload
+bodyTypesLabel,Body Types
+defaultFemLabel,Default Fem
+defaultMascLabel,Default Masc
+strongFemLabel,Strong Fem
+strongMascLabel,Strong Masc
+githyankiFemLabel,Githyanki Fem
+githyankiMascLabel,Githyanki Masc
+dwarfFemLabel,Dwarf Fem
+dwarfMascLabel,Dwarf Masc
+halflingFemLabel,Halfling Fem
+halflingMascLabel,Halfling Masc
+gnomeFemLabel,Gnome Fem
+gnomeMascLabel,Gnome Masc
+dragonbornFemLabel,Dragonborn Fem
+dragonbornMascLabel,Dragonborn Masc
+meshBoundsLabel,Mesh Bounds
+maxLabel,Max
+minLabel,Min
+centerLabel,Center
+radiusLabel,Radius
+boundsDescriptionLabel,The bounds of the 3D mesh.
+submeshesLabel,Submeshes
+applyMaterialToAllLabel,Apply Material to All
+vertexMaskDescriptionLabel,Select the body parts that your mesh should cover.
+vertexMaskLabel,Vertex Masks
+itemDataLabel,ItemData
+warningLabel,Warning
+materialLabel,Material
+submeshLabel,Submesh
+lodLabel,LOD
+loadingLabel,Loading
+proficiencyGroupsLabel,Proficiency Groups
+boostsLabel,Boosts
+passivesLabel,Passives
+defaultBoostsLabel,Default Boosts
+boostsMainHandLabel,Boosts Main Hand
+passivesMainHandLabel,Passives Main Hand
+weaponPropertiesLabel,Weapon Properties
+armorClassLabel,Armor Class
+armorClassAbilityLabel,Armor Class Ability
+abilityModifierCapLabel,Ability Modifier Cap
+armorTypeLabel,Armor Type
+minimumLevelLabel,Minimum Level
+uniqueLabel,Unique
+damageLabel,Damage
+levelLabel,Level
+weaponGroupLabel,Weapon Group
+versatileDamageLabel,Versatile Damage
+damageRangeLabel,Damage Range
+weaponRangeLabel,Weapon Range
+customProjectileLabel,Custom Projectile
+instrumentTypeLabel,Instrument Type
+statsLabel,Stats
+submitStatsLabel,Submit Stats
+colorPresetsDescriptionLabel,"To set your default color preset for the tintable mesh, click on the square under its description."
+clothPrimaryLabel,Cloth Primary
+clothSecondaryLabel,Cloth Secondary
+clothTertiaryLabel,Cloth Tertiary
+leatherPrimaryLabel,Leather Primary
+leatherSecondaryLabel,Leather Secondary
+leatherTertiaryLabel,Leather Tertiary
+metalPrimaryLabel,Metal Primary
+metalSecondaryLabel,Metal Secondary
+metalTertiaryLabel,Metal Tertiary
+accentColorLabel,Accent Color
+customColor1Label,Custom Color 1
+customColor2Label,Custom Color 2
+submitLabel,Submit
+nonTintableLabel,Non-Tintable
+tintableLabel,Tintable
+normalMapLabel,Normal Map
+physicalMapLabel,Physical Map
+clothMaskLabel,Cloth Mask
+gameMaterialUUIDLabel,Game Material UUID
+materialNameLabel,Material Name
+gameUUIDLabel,Game UUID
+nonTintableItemNameLabel,Non-Tintable Item Name
+tintableItemNameLabel,Tintable Item Name
+itemDescriptionLabel,Item Description
+iconLabel,Icon
+equipmentTypeLabel,Equipment Type
+itemWeightLabel,Item Weight
+valueLabel,Value
+rarityLabel,Rarity
+setStatsLabel,Set Stats
+colorPresetLabel,Color Preset
+visualTemplateMeshLabel,Visual Template Mesh
+submitItemLabel,Submit Item
+itemInformationLabel,Item Information
+itemTypeLabel,Item Type
+itemSubtypeLabel,Item Subtype
+languageLabel,Language
+changeLanguageLabel,Change Language
+informationMessageRestartProgram,Please restart the program to see changes.
+errorMessageInvalidProjectVersionNumber,Invalid project version number. Please use the version calculator from the BG3 Modder's Multitool.
