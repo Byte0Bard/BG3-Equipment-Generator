@@ -20,4 +20,4 @@ By default, generated items are put in the tutorial chest. This can be changed b
 - Can handle tintable (dyeable) and non-tintable equipment.
 - Can apply materials to individual objects within the .GR2 mesh file.
 - Can input material UUIDs from the game.
-- Can generate weapons, shields, underwear, camp clothing, instruments, and stats editing.
+- Can generate weapons, shields, underwear, camp clothing, instruments, and edit stats.
