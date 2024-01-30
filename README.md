@@ -1,7 +1,7 @@
 # BG3-Equipment-Generator
  BG3 custom equipment and textures tool.
 
- In order to save a new preset profile, type a new name into the dropdown box next to the “Load Preset” button. When you click “Continue,” the program will create a save. 
+ In order to save a new preset profile, type a new name into the dropdown box next to the “Retrieve Presets” button. When you click “Continue,” the program will create a save. 
 
  Right now, there is an incompatibility with tintable items and Transmog Enhanced. For some reason, the items do not re-equip and cannot be used after transmogging. Saving and reloading fixes this and lets you equip the items. I'm trying to find a solution. Thank you for your patience.
 
