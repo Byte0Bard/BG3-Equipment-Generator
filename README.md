@@ -21,3 +21,5 @@ By default, generated items are put in the tutorial chest. This can be changed b
 - Can apply materials to individual objects within the .GR2 mesh file.
 - Can input material UUIDs from the game.
 - Can generate weapons, shields, underwear, camp clothing, instruments, and edit stats.
+
+My Ko-Fi is https://ko-fi.com/bytebard if you like this software and wish to support me!
