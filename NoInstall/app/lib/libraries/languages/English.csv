@@ -129,7 +129,7 @@ backLabel,Back
 lightThemeLabel,Light
 darkThemeLabel,Dark
 meshLabel,Mesh
-meshDescriptionLabel,The 3D model.
+meshDescriptionLabel,The 3D model Address
 meshNameLabel,Mesh Name
 uploadLabel,Upload
 submitMeshLabel,Submit Mesh
@@ -229,3 +229,10 @@ languageLabel,Language
 changeLanguageLabel,Change Language
 informationMessageRestartProgram,Please restart the program to see changes.
 errorMessageInvalidProjectVersionNumber,Invalid project version number. Please use the version calculator from the BG3 Modder's Multitool.
+informationMessageEnterSaveName,Enter Profile Name
+errorMessageNoSaveNameEntered,No name entered. Information will not be saved.
+errorMessageNoMaterialSelected,No material selected.
+meshUUIDOnlyDescriptionLabel,Mesh UUID
+meshUUIDOnlyCheckBoxLabel,Mesh UUID Only
+customizeMaterialCheckBoxLabel,Customize Material
+warningMessageNoMaterials,"No materials in table. To add a .GR2 mesh, create a material first."
