@@ -75,7 +75,7 @@ errorMessageEmptyRowSelection,Please select a row.
 errorMessageNoMaterialCreated,Please add at least one material.
 errorMessageInvalidUUID,Invalid UUID.
 errorMessageFileNotFound,File/s not found.
-errorMessageMaterialTableErrors,Cannot edit mesh. Errors present in material table.
+errorMessageMaterialTableErrors,Errors present in material table.
 informationMessageLoadingMeshes,Loading Meshes
 informationMessageLoadingTextures,Loading Textures
 errorMessageValidNumberStats,"Armor class, ability modifier cap, and minimum level must be integers."
@@ -112,7 +112,7 @@ modNameLabel,Mod Name
 authorLabel,Author
 projectDescriptionLabel,Project Description
 projectVersionNumberLabel,Project Version Number
-retrievePresetsLabel,Retrieve Presets
+retrievePresetsLabel,Load Save File
 copyPresetLabel,Copy Preset
 deletePresetLabel,Delete Preset
 continueLabel,Continue
@@ -207,9 +207,9 @@ tintableLabel,Tintable
 normalMapLabel,Normal Map
 physicalMapLabel,Physical Map
 clothMaskLabel,Cloth Mask
-gameMaterialUUIDLabel,Game Material UUID
+gameMaterialUUIDLabel,Material UUID
 materialNameLabel,Material Name
-gameUUIDLabel,Game UUID
+gameUUIDLabel,UUID
 nonTintableItemNameLabel,Non-Tintable Item Name
 tintableItemNameLabel,Tintable Item Name
 itemDescriptionLabel,Item Description
@@ -230,9 +230,45 @@ changeLanguageLabel,Change Language
 informationMessageRestartProgram,Please restart the program to see changes.
 errorMessageInvalidProjectVersionNumber,Invalid project version number. Please use the version calculator from the BG3 Modder's Multitool.
 informationMessageEnterSaveName,Enter Profile Name
-errorMessageNoSaveNameEntered,No name entered. Information will not be saved.
+errorMessageNoSaveNameEntered,No name entered. Information will not be saved with new name.
 errorMessageNoMaterialSelected,No material selected.
 meshUUIDOnlyDescriptionLabel,Mesh UUID
 meshUUIDOnlyCheckBoxLabel,Mesh UUID Only
 customizeMaterialCheckBoxLabel,Customize Material
 warningMessageNoMaterials,"No materials in table. To add a .GR2 mesh, create a material first."
+hairLabel,Hair
+errorMessageBodyTypesMissing,Missing body types.
+errorMessageSubmeshesMissing,Missing submesh/submeshes.
+errorMessageHairMissing,Hair is null or missing.
+errorMessageHairUUIDMissing,Hair is missing a UUID.
+errorMessageMSKATextureNotFound,MSKA texture not found.
+errorMessageHairNameMissing,Unable to submit hair. Please enter a name for the hair.
+errorMessageHairPresetMissing,Unable to submit hair. Please select a preset hair.
+errorMessageHairScalpMissing,Unable to submit hair. Please select a scalp.
+errorMessageUnableToSubmit,Unable to submit.
+errorMessageIconImageNullOrBlank,Icon image null or blank.
+informationMessageLoadingHair,Loading Hair
+errorMessageTextureProblem,Texture error. Please fix the texture: 
+confirmMessageDeleteHairMesh,Do you want to clear mesh information? The mesh will be removed so you can start over.
+savedWord,Saved
+notSavedWord,Not Saved
+forHairWords, for Hair 
+errorMessageHairTableErrors,There are errors in the hair table.
+scalpMaterialUUIDLabel,Scalp Material UUID
+presetResourceUUIDLabel,Preset Resource UUID
+skeletonResourceUUIDLabel,Skeleton Resource UUID
+scalpMaterialNameLabel,Scalp Material Name
+presetResourceNameLabel,Preset Resource Name
+skletonResourceNameLabel,Skeleton Resource Name
+errorMessageNoToggleSelected,No button selected. Please select a button.
+confirmMessageClearSelection,Clear selection?
+errorMessageUniqueMeshName,Mesh name must be unique. Another mesh already has this name.
+saveAsLabel,Save As...
+saveAsToolTip,Save this under a different save name.
+confirmMessageProjectInformationChange1,The project information for profile 
+confirmMessageProjectInformationChange2, has changed. Would you like to save it as a new profile?
+confirmMessageClearPreferences,Are you sure you want to clear your preferences? Current profiles save folder is located at  
+clearPreferencesLabel,Clear Preferences
+openCurrentProfilesSaveFolderLabel,Open Save Folder
+okayLabel,OK
+releaseNotesTitleLabel,Release Notes
