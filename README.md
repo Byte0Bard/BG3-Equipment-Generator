@@ -1,13 +1,11 @@
 # BG3-Equipment-Generator
  BG3 custom equipment and textures tool.
 
- In order to save a new preset profile, type a new name into the dropdown box next to the “Retrieve Presets” button. When you click “Continue,” the program will create a save. 
+This is a program for getting your equipment or hair mod into BG3. 
+If you have 3D models from Blender, models from other games you want to import, or you want to mix and match in game meshes, this is the tool! 
+I have included a video as well as a PDF. Please let me know if I have anything wrong! I am still learning.
 
- Right now, there is an incompatibility with tintable items and Transmog Enhanced. For some reason, the items do not re-equip and cannot be used after transmogging. Saving and reloading fixes this and lets you equip the items. I'm trying to find a solution. Thank you for your patience.
-
-This is a program for getting custom armor with custom textures into BG3. If you have 3D models from Blender, or if you have models from other games you want to import, this is the tool! I have included a video as well as a PDF. Please let me know if I have anything wrong! Please let me know what works/doesn't work. I am still learning. Currently, it cannot automatically generate armor sets using in-game assets. If you follow Druu's Custom Armor Making Tutorial by Druundev (https://www.nexusmods.com/baldursgate3/mods/1409), get your meshes set up in Blender, and find the material UUIDs, you should be able to generate the files needed by putting in your new custom .GR2 and your material UUID.
-
-By default, generated items are put in the tutorial chest. This can be changed by editing these files:
+By default, generated equipment items are put in the tutorial chest. This can be changed by editing these files:
 [YourMod]\Public\[YourMod]\Stats\Generated\Data\Armor.txt
 [YourMod]\Public\[YourMod]\Stats\Generated\Data\Armor_MSK.txt
 [YourMod]\Public\[YourMod]\Stats\Generated\Data\Objects.txt
@@ -19,7 +17,8 @@ By default, generated items are put in the tutorial chest. This can be changed b
 - Automatically fills out .GR2 information like bounds and mesh data.
 - Can handle tintable (dyeable) and non-tintable equipment.
 - Can apply materials to individual objects within the .GR2 mesh file.
-- Can input material UUIDs from the game.
-- Can generate weapons, shields, underwear, camp clothing, instruments, and edit stats.
+- Can input material and mesh UUIDs from the game.
+- Has weapons, shields, underwear, camp clothing, instruments, and stats editing.
+- Can generate hair mods that have custom meshes and textures.
 
 My Ko-Fi is https://ko-fi.com/bytebard if you like this software and wish to support me!
