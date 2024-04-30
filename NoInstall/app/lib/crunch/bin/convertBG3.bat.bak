@@ -39,7 +39,7 @@ for %%O in (%dxt1List%) do (
 	set /a "currentFile+=1"
 	echo "Current file #!currentFile!/!totalFiles!"
 	"%batchDir%crunch.exe" -file "%%~O" -outsamedir -fileformat DDS -dxt1
-	del %%O
+	del "%%O"
 	ren "%%~dpnO.dds" "%%~nO.DDS"
 )
 
